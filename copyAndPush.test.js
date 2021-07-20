@@ -8,4 +8,11 @@ describe('returns a copy of an array with a new item pushed to the end', () => {
   
     expect(actual).toEqual(expected);
   });
+  
+  it('checks OG array', () => {
+    const numbers = [1, 2, 3];
+    const expected = [1, 2, 3];
+  
+    expect(numbers).toEqual(expected);
+  });
 });
