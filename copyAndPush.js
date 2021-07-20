@@ -1,4 +1,5 @@
 export default function copyAndPush(array, number) {
   array.push(number);
-  return array;
+  const newArr = array;
+  return newArr;
 }
